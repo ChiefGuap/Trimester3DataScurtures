@@ -13,6 +13,11 @@ import java.util.HashMap;
 import src.Blueprint;
 import src.Challenge1;
 import src.Challenge2;
+import src.stack;
+import src.w1c1;
+import src.w1c2; 
+import src.w1c3; 
+import src.queue; 
 import src.Exit;
 
 
@@ -34,6 +39,10 @@ public class Main {   //Everything in Java is inside a class, Squigs, Squigalies
         newOptions.put(0, new Exit("Exit"));
         newOptions.put(1, new Challenge1("Option 1"));
         newOptions.put(2, new Challenge2("Option 2"));
+        newOptions.put(3, new w1c1("Option 3")); 
+        newOptions.put(4, new w1c2("Option 4"));
+        newOptions.put(5, new w1c3("Option 5")); 
+      
 
         while(true)
             menu("Menu", newOptions);
