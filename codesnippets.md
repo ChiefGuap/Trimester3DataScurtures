@@ -12,6 +12,6 @@
 ![Code Snippet 2](https://github.com/ChiefGuap/Trimester3DataScurtures/blob/main/CodeSnip2.png)
 
 
-**This is where I initialized the hashmap and learned how to create a new data structure. Overall this is a cool way to organize your code and make sure that everything can be connected to other files. This is a very cool way to call code and because of the parameters, it makes it easy to call and is efficient. Takes way less time than making a case for each parameter and is fun! **
+**This is where I initialized the hashmap and learned how to create a new data structure. Overall this is a cool way to organize your code and make sure that everything can be connected to other files. This is a very cool way to call code and because of the parameters, it makes it easy to call and is efficient. Takes way less time than making a case for each parameter and is fun!**
 
 
