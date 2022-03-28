@@ -27,7 +27,7 @@ public class w1c2 extends Blueprint {
         //initialize output queue
         queue<Integer> output = new queue();
 
-        //insert list into q1 We are using the push method to add all the numbers             from the list array that we made into queue
+        //insert list into q1 We are using the push method to add all the numbers from the list array that we made into queue
         for(int num : q1_list) {
             queue1.push(num);
         }

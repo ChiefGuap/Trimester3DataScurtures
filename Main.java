@@ -39,9 +39,9 @@ public class Main {   //Everything in Java is inside a class, Squigs, Squigalies
         newOptions.put(0, new Exit("Exit"));
         newOptions.put(1, new Challenge1("Option 1"));
         newOptions.put(2, new Challenge2("Option 2"));
-        newOptions.put(3, new w1c1("Option 3")); 
-        newOptions.put(4, new w1c2("Option 4"));
-        newOptions.put(5, new w1c3("Option 5")); 
+        newOptions.put(3, new w1c1("Week 1 Challenge 1")); 
+        newOptions.put(4, new w1c2("Week 1 Challenge 2"));
+        newOptions.put(5, new w1c3("Week 1 Challenge 3")); 
       
 
         while(true)
