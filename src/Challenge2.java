@@ -55,6 +55,8 @@ public class Challenge2 extends Blueprint{
         System.out.println();
 
         System.out.println("Matrix 1 Flipped: ");
+      
+       // System.out.println("Hello world"); 
         printMatrix(switchMatrix(matrix1, matrix1.length, matrix1[0].length));
         System.out.println();
     }

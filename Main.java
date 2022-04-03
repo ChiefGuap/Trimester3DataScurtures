@@ -19,6 +19,8 @@ import src.w1c2;
 import src.w1c3; 
 import src.queue; 
 import src.Exit;
+import src.bubbleSort; 
+
 
 
 /** Main - entry point class for this project
@@ -42,6 +44,7 @@ public class Main {   //Everything in Java is inside a class, Squigs, Squigalies
         newOptions.put(3, new w1c1("Week 1 Challenge 1")); 
         newOptions.put(4, new w1c2("Week 1 Challenge 2"));
         newOptions.put(5, new w1c3("Week 1 Challenge 3")); 
+        newOptions.put(6, new bubbleSort("Bubble Sort example")); 
       
 
         while(true)
@@ -67,6 +70,7 @@ public class Main {   //Everything in Java is inside a class, Squigs, Squigalies
             newOptions.get(selection).run();
         } catch (Exception e) {
             System.out.println("Invalid Input");
+            System.out.println("Not correct, please try again.");
         }
     }
 

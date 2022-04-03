@@ -27,6 +27,7 @@ public class w1c1 extends Blueprint {
 
         //create queue
         queue<String> raqQueue = new queue();
+        
 
         //enqueue data
         for(String word : sentence) {
