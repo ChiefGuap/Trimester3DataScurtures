@@ -46,6 +46,18 @@ public class BubbleSort extends Blueprint {
     @Override
     public void run() {
     {
+
+      long startTime = System.currentTimeMillis();
+
+        long total = 0;
+        for (int i = 0; i < 10000000; i++) {
+            total += i;
+        }
+
+        long stopTime = System.currentTimeMillis();
+        long elapsedTime = stopTime - startTime;
+
+      
         BubbleSort ob = new BubbleSort("Un-Sorted Array");
       System.out.println("Give your brotha 5 numbers, and through a bubble sort we will put them in condesendcing order (least to greatest"); 
       Scanner scanner = new Scanner(System.in);
@@ -58,6 +70,7 @@ public class BubbleSort extends Blueprint {
         ob.BubbleSort(arr);
         System.out.println("Sorted array");
         ob.printArray(arr);
+        System.out.println("The amount of time in milliseconds it took to compile this code (uding Bubble Sort)" + elapsedTime + " Milliseconds");
     }
 }
 }

@@ -21,6 +21,8 @@ import src.queue;
 import src.Exit;
 import src.BubbleSort; 
 import src.SelectionSort; 
+import src.InsertionSort; 
+import src.MergeSort; 
 
 
 
@@ -47,6 +49,8 @@ public class Main {   //Everything in Java is inside a class, Squigs, Squigalies
         newOptions.put(5, new w1c3("Week 1 Challenge 3")); 
         newOptions.put(6, new BubbleSort("BubbleSort")); 
         newOptions.put(7, new SelectionSort("Selection Sort"));
+        newOptions.put(8, new InsertionSort("Insertion Sort")); 
+        newOptions.put(9, new MergeSort("Merge Sort")); 
         //newOptions.put(6, new bubbleSort("Bubble Sort example")); 
       
 
