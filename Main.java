@@ -19,7 +19,8 @@ import src.w1c2;
 import src.w1c3; 
 import src.queue; 
 import src.Exit;
-import src.bubbleSort; 
+import src.BubbleSort; 
+import src.SelectionSort; 
 
 
 
@@ -44,7 +45,9 @@ public class Main {   //Everything in Java is inside a class, Squigs, Squigalies
         newOptions.put(3, new w1c1("Week 1 Challenge 1")); 
         newOptions.put(4, new w1c2("Week 1 Challenge 2"));
         newOptions.put(5, new w1c3("Week 1 Challenge 3")); 
-        newOptions.put(6, new bubbleSort("Bubble Sort example")); 
+        newOptions.put(6, new BubbleSort("BubbleSort")); 
+        newOptions.put(7, new SelectionSort("Selection Sort"));
+        //newOptions.put(6, new bubbleSort("Bubble Sort example")); 
       
 
         while(true)
